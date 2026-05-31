@@ -1,0 +1,817 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professional portfolio of Abhay Shukla - Computer Science Student, Java Developer, Web Developer, and Cyber Security Enthusiast. Explore innovative software projects and skills.">
+    <meta name="keywords" content="Abhay Shukla, Portfolio, Computer Science, Java Developer, Web Developer, Cyber Security, Software Engineer, Greater Noida">
+    <meta name="author" content="Abhay Shukla">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/abhayshukla2404-art">
+    <meta property="og:title" content="Abhay Shukla | Portfolio | Computer Science Student & Developer">
+    <meta property="og:description" content="Discover the software projects, technical skills, and experience of Abhay Shukla, featuring AI infrastructure monitoring, web dashboard systems, and interactive tools.">
+    <meta property="og:image" content="assets/profile.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="Abhay Shukla | Portfolio | Computer Science Student & Developer">
+    <meta property="twitter:description" content="Discover the software projects, technical skills, and experience of Abhay Shukla.">
+    <meta property="twitter:image" content="assets/profile.png">
+
+    <title>Abhay Shukla | Personal Portfolio</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Header & Navigation Bar -->
+    <header class="navbar-header">
+        <div class="navbar-container container">
+            <a href="#home" class="nav-logo" id="nav-logo">
+                Abhay<span>Shukla</span><span class="logo-dot">.</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active"><i class="fa-solid fa-house nav-icon"></i>Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link"><i class="fa-solid fa-user nav-icon"></i>About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link"><i class="fa-solid fa-screwdriver-wrench nav-icon"></i>Skills</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link"><i class="fa-solid fa-laptop-code nav-icon"></i>Projects</a></li>
+                    <li class="nav-item"><a href="#certificates" class="nav-link"><i class="fa-solid fa-award nav-icon"></i>Certificates</a></li>
+                    <li class="nav-item"><a href="#resume" class="nav-link"><i class="fa-solid fa-file-pdf nav-icon"></i>Resume</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link"><i class="fa-solid fa-envelope nav-icon"></i>Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <!-- Theme Toggle Button -->
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light mode" title="Toggle theme">
+                    <i class="fa-solid fa-moon moon-icon"></i>
+                    <i class="fa-solid fa-sun sun-icon"></i>
+                </button>
+
+                <!-- Mobile Menu Hamburger Toggle -->
+                <button id="mobile-toggle" class="mobile-toggle-btn" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-menu">
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                    <span class="hamburger-bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-gradients">
+                <div class="gradient-sphere blob-1"></div>
+                <div class="gradient-sphere blob-2"></div>
+                <div class="grid-overlay"></div>
+            </div>
+            <div class="container hero-container grid-2">
+                <div class="hero-content reveal-on-scroll">
+                    <span class="hero-subtitle">Welcome to my space</span>
+                    <h1 class="hero-title">Hi, I'm <span class="highlight-text">Abhay Shukla</span></h1>
+                    <h2 class="hero-tagline">
+                        I am a <span class="typing-element" id="typing-text"></span><span class="typing-cursor">|</span>
+                    </h2>
+                    <p class="hero-description">
+                        Hi, I'm Abhay Shukla. A passionate Computer Science student interested in Java Development, Web Development, Cyber Security, and Software Development. I enjoy learning new technologies and building innovative projects that solve real-world problems. My goal is to become a skilled Software Engineer and contribute to impactful technological solutions.
+                    </p>
+                    <div class="hero-ctas">
+                        <a href="#projects" class="btn btn-primary" id="hero-btn-work">View My Work <i class="fa-solid fa-arrow-down-long"></i></a>
+                        <a href="#contact" class="btn btn-secondary" id="hero-btn-contact">Let's Connect <i class="fa-solid fa-paper-plane"></i></a>
+                    </div>
+                    <div class="hero-socials">
+                        <a href="https://github.com/abhayshukla2404-art" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub Account" title="GitHub"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abhay-shukla-19b61439b" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn Account" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="mailto:abhayshukla2404@gmail.com" class="social-icon" aria-label="Send Email" title="Email"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="hero-image-area reveal-on-scroll">
+                    <div class="profile-image-container">
+                        <div class="profile-glow-ring"></div>
+                        <div class="profile-frame">
+                            <img src="assets/profile.png" alt="Abhay Shukla Professional Avatar" class="profile-img" loading="eager">
+                        </div>
+                        <div class="floating-tech-badge java-badge" title="Java"><i class="fa-brands fa-java"></i></div>
+                        <div class="floating-tech-badge code-badge" title="Web Dev"><i class="fa-solid fa-code"></i></div>
+                        <div class="floating-tech-badge shield-badge" title="Cyber Security"><i class="fa-solid fa-shield-halved"></i></div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll down to About section">
+                <span class="mouse-scroll">
+                    <span class="mouse-wheel"></span>
+                </span>
+                <span class="arrow-scroll">
+                    <i class="fa-solid fa-angle-down"></i>
+                </span>
+            </a>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-on-scroll">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Get to know more about my background, career goal, and motivations.</p>
+                </div>
+                
+                <div class="about-grid grid-2 reveal-on-scroll">
+                    <div class="about-info-panel">
+                        <h3 class="about-intro-title">Who am I?</h3>
+                        <p class="about-description">
+                            I am a Computer Science student with a strong interest in Web Development, Java Programming, Cyber Security, and Software Development. I enjoy learning new technologies and building projects that improve my technical skills. My goal is to become a skilled software engineer and contribute to innovative solutions.
+                        </p>
+                        <p class="about-description-extra">
+                            Driven by curiosity, I regularly participate in programming challenges, explore cyber defense concepts, and build sleek user experiences on the web. I believe in writing readable, high-performance code and designing solutions with the user in mind.
+                        </p>
+                        <div class="about-personal-details">
+                            <div class="detail-item"><span class="detail-label">Location:</span> <span class="detail-val">Greater Noida, UP, India</span></div>
+                            <div class="detail-item"><span class="detail-label">Status:</span> <span class="detail-val">Open to Internships / Placements</span></div>
+                            <div class="detail-item"><span class="detail-label">Degree:</span> <span class="detail-val">Bachelor of Technology (CSE)</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Statistics Counter Cards Grid -->
+                    <div class="about-stats-panel grid-2">
+                        <div class="stat-card reveal-on-scroll">
+                            <div class="stat-icon-wrapper"><i class="fa-solid fa-diagram-project"></i></div>
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-target="15">0</span><span class="stat-plus">+</span>
+                            </div>
+                            <h4 class="stat-label">Projects Completed</h4>
+                        </div>
+                        
+                        <div class="stat-card reveal-on-scroll">
+                            <div class="stat-icon-wrapper"><i class="fa-solid fa-graduation-cap"></i></div>
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-target="8">0</span><span class="stat-plus">+</span>
+                            </div>
+                            <h4 class="stat-label">Core Tech Learned</h4>
+                        </div>
+                        
+                        <div class="stat-card reveal-on-scroll">
+                            <div class="stat-icon-wrapper"><i class="fa-brands fa-github-alt"></i></div>
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-target="20">0</span><span class="stat-plus">+</span>
+                            </div>
+                            <h4 class="stat-label">GitHub Repositories</h4>
+                        </div>
+
+                        <div class="stat-card reveal-on-scroll">
+                            <div class="stat-icon-wrapper"><i class="fa-solid fa-code-fork"></i></div>
+                            <div class="stat-number-wrapper">
+                                <span class="stat-number" data-target="100">0</span><span class="stat-plus">%</span>
+                            </div>
+                            <h4 class="stat-label">Enthusiasm & Passion</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding section-bg-alt">
+            <div class="container">
+                <div class="section-header text-center reveal-on-scroll">
+                    <h2 class="section-title">Technical Expertise</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Here are the tools, programming languages, and technologies I specialize in.</p>
+                </div>
+                
+                <div class="skills-grid reveal-on-scroll">
+                    <!-- HTML5 Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon html-color"><i class="fa-brands fa-html5"></i></div>
+                            <div class="skill-info">
+                                <h3 class="skill-name">HTML5</h3>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill html-fill" data-progress="95%"></div>
+                        </div>
+                    </div>
+
+                    <!-- CSS3 Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon css-color"><i class="fa-brands fa-css3-alt"></i></div>
+                            <div class="skill-info">
+                                <h3 class="skill-name">CSS3</h3>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill css-fill" data-progress="90%"></div>
+                        </div>
+                    </div>
+
+                    <!-- JavaScript Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon js-color"><i class="fa-brands fa-square-js"></i></div>
+                            <div class="skill-info">
+                                <h3 class="skill-name">JavaScript</h3>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill js-fill" data-progress="85%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Java Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon java-color"><i class="fa-brands fa-java"></i></div>
+                            <div class="skill-info">
+                                <h3 class="skill-name">Java</h3>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill java-fill" data-progress="88%"></div>
+                        </div>
+                    </div>
+
+                    <!-- C++ Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon cpp-color"><i class="fa-solid fa-code"></i></div>
+                            <div class="skill-info">
+                                <h3 class="skill-name">C++</h3>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill cpp-fill" data-progress="80%"></div>
+                        </div>
+                    </div>
+
+                    <!-- DSA Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon dsa-color"><i class="fa-solid fa-gears"></i></div>
+                            <div class="skill-info">
+                                <h3 class="skill-name">DSA</h3>
+                                <span class="skill-percentage">82%</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill dsa-fill" data-progress="82%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Web Development Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon web-color"><i class="fa-solid fa-laptop-code"></i></div>
+                            <div class="skill-info">
+                                <h3 class="skill-name">Web Development</h3>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill web-fill" data-progress="90%"></div>
+                        </div>
+                    </div>
+
+                    <!-- Cyber Security Card -->
+                    <div class="skill-card">
+                        <div class="skill-header">
+                            <div class="skill-icon cyber-color"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="skill-info">
+                                <h3 class="skill-name">Cyber Security</h3>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skill-progress-bar">
+                            <div class="skill-progress-fill cyber-fill" data-progress="75%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-on-scroll">
+                    <h2 class="section-title">My Projects</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">A showcase of some recent applications I've developed, covering AI, full-stack, and Web environments.</p>
+                </div>
+
+                <!-- Projects Filter Buttons -->
+                <div class="projects-filter-container text-center reveal-on-scroll">
+                    <button class="filter-btn active" data-filter="all" id="filter-all">All Projects</button>
+                    <button class="filter-btn" data-filter="ai-java" id="filter-ai-java">AI & Java</button>
+                    <button class="filter-btn" data-filter="web-dev" id="filter-web-dev">Web Development</button>
+                </div>
+
+                <!-- Projects Grid -->
+                <div class="projects-grid reveal-on-scroll" id="projects-grid">
+                    
+                    <!-- Project 1: AI Infrastructure Detector -->
+                    <article class="project-card" data-category="ai-java">
+                        <div class="project-image-box">
+                            <img src="assets/project1.png" alt="AI Based Real World Infrastructure Bug Detector Mockup" class="project-img" loading="lazy">
+                            <span class="project-category-badge">AI / Python</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">AI Infrastructure Bug Detector</h3>
+                            <p class="project-desc">
+                                Developed an AI-powered infrastructure monitoring system that uses camera feeds to automatically detect issues such as potholes, garbage accumulation, and water leakage.
+                            </p>
+                            
+                            <h4 class="project-subheading">Key Features:</h4>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> YOLOv8 Object Detection Model</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Real-time issue monitoring</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Severity Analysis (Low, Med, High)</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> GPS Location Tagging & Logging</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Automatic complaint ticket generation</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Interactive map dashboard</li>
+                            </ul>
+                            
+                            <div class="project-tech-stack">
+                                <span class="tech-chip">YOLOv8</span>
+                                <span class="tech-chip">Python</span>
+                                <span class="tech-chip">AI/ML</span>
+                                <span class="tech-chip">OpenCV</span>
+                                <span class="tech-chip">GPS Integration</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 2: Personal Expense Tracker -->
+                    <article class="project-card" data-category="web-dev">
+                        <div class="project-image-box">
+                            <img src="assets/project2.png" alt="Personal Expense Tracker Mockup" class="project-img" loading="lazy">
+                            <span class="project-category-badge">Web Dev</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Personal Expense Tracker</h3>
+                            <p class="project-desc">
+                                A web application that helps users track daily expenses, categorize spending, and visualize monthly budgets through interactive charts and reports.
+                            </p>
+                            
+                            <h4 class="project-subheading">Key Features:</h4>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Add, update & manage daily expenses</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Customizable categorization systems</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Comprehensive monthly summary statistics</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Smart budget analysis & alert threshholds</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Dynamic visual charts (Canvas API)</li>
+                            </ul>
+                            
+                            <div class="project-tech-stack">
+                                <span class="tech-chip">HTML5</span>
+                                <span class="tech-chip">CSS3</span>
+                                <span class="tech-chip">JavaScript</span>
+                                <span class="tech-chip">LocalStorage</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Project 3: Online Quiz Application -->
+                    <article class="project-card" data-category="web-dev">
+                        <div class="project-image-box">
+                            <img src="assets/project3.png" alt="Online Quiz Application Mockup" class="project-img" loading="lazy">
+                            <span class="project-category-badge">Web Dev</span>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Online Quiz Application</h3>
+                            <p class="project-desc">
+                                An interactive quiz platform where users can take challenging academic tests, receive instant graded results, and review historical performance.
+                            </p>
+                            
+                            <h4 class="project-subheading">Key Features:</h4>
+                            <ul class="project-features-list">
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Intuitive multiple-choice structure</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Real-time smart score calculator</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Active counting countdown timer</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Highly responsive adaptive mobile UI</li>
+                                <li><i class="fa-solid fa-check feature-check-icon"></i> Detailed breakdown of correct answers</li>
+                            </ul>
+                            
+                            <div class="project-tech-stack">
+                                <span class="tech-chip">HTML5</span>
+                                <span class="tech-chip">CSS3</span>
+                                <span class="tech-chip">JavaScript</span>
+                                <span class="tech-chip">JSON Database</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications & Achievements Section -->
+        <section id="certificates" class="certificates-section section-padding section-bg-alt">
+            <div class="container">
+                <div class="section-header text-center reveal-on-scroll">
+                    <h2 class="section-title">Certifications & Achievements</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">A collection of certifications, technical training programs, and achievements that showcase my continuous learning journey and commitment to professional growth.</p>
+                </div>
+
+                <!-- Certificates Stats Sub-Panel -->
+                <div class="certificates-stats-panel reveal-on-scroll">
+                    <div class="cert-stat-card">
+                        <div class="cert-stat-icon"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="cert-stat-number-box">
+                            <span class="cert-stat-number" data-target="5">0</span><span class="cert-stat-plus">+</span>
+                        </div>
+                        <span class="cert-stat-label">Certificates Earned</span>
+                    </div>
+                    
+                    <div class="cert-stat-card">
+                        <div class="cert-stat-icon"><i class="fa-solid fa-book-open"></i></div>
+                        <div class="cert-stat-number-box">
+                            <span class="cert-stat-number" data-target="3">0</span><span class="cert-stat-plus">+</span>
+                        </div>
+                        <span class="cert-stat-label">Technical Courses</span>
+                    </div>
+                    
+                    <div class="cert-stat-card">
+                        <div class="cert-stat-icon"><i class="fa-solid fa-trophy"></i></div>
+                        <div class="cert-stat-number-box">
+                            <span class="cert-stat-number" data-target="1">0</span>
+                        </div>
+                        <span class="cert-stat-label">Hackathon Participation</span>
+                    </div>
+                </div>
+
+                <!-- Certificates Filters -->
+                <div class="certificates-filter-container text-center reveal-on-scroll">
+                    <button class="cfilter-btn active" data-cfilter="all" id="cfilter-all">All Certificates</button>
+                    <button class="cfilter-btn" data-cfilter="programming" id="cfilter-programming">Programming</button>
+                    <button class="cfilter-btn" data-cfilter="web-dev" id="cfilter-web-dev">Web Development</button>
+                    <button class="cfilter-btn" data-cfilter="hackathon" id="cfilter-hackathon">Hackathons</button>
+                </div>
+
+                <!-- Certificates Grid -->
+                <div class="certificates-grid reveal-on-scroll" id="certificates-grid">
+                    
+                    <!-- Cert 1: Hackaccino -->
+                    <article class="certificate-card" data-ccategory="hackathon">
+                        <div class="cert-image-box">
+                            <img src="assets/cert1.png" alt="Hackaccino 2026 Participation Certificate" class="cert-img" loading="lazy">
+                            <span class="cert-category-badge">Hackathon</span>
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Inspect Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Hackaccino 2026 Participation</h3>
+                            <span class="cert-org"><i class="fa-solid fa-building-columns"></i> Hackaccino 4.0, Bennett University</span>
+                            <p class="cert-achievement">Participated in Hackaccino 2026 Hackathon</p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> 2026</span>
+                                <button class="btn btn-card-git btn-view-cert" 
+                                    data-cert-src="assets/cert1.png" 
+                                    data-cert-title="Hackaccino 2026 Participation Certificate"
+                                    data-cert-org="Hackaccino 4.0, Bennett University"
+                                    data-cert-date="2026"
+                                    data-cert-achievement="Participated in Hackaccino 2026 Hackathon">
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cert 2: Java Bootcamp -->
+                    <article class="certificate-card" data-ccategory="programming">
+                        <div class="cert-image-box">
+                            <img src="assets/cert2.png" alt="LetsUpgrade Java Bootcamp Certificate" class="cert-img" loading="lazy">
+                            <span class="cert-category-badge">Programming</span>
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Inspect Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">Java Bootcamp Certificate</h3>
+                            <span class="cert-org"><i class="fa-solid fa-building-columns"></i> LetsUpgrade</span>
+                            <p class="cert-achievement">Successfully completed Java Bootcamp</p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> April 2026</span>
+                                <button class="btn btn-card-git btn-view-cert" 
+                                    data-cert-src="assets/cert2.png" 
+                                    data-cert-title="Java Bootcamp Certificate"
+                                    data-cert-org="LetsUpgrade"
+                                    data-cert-date="April 2026"
+                                    data-cert-achievement="Successfully completed Java Bootcamp">
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cert 3: JavaScript -->
+                    <article class="certificate-card" data-ccategory="web-dev">
+                        <div class="cert-image-box">
+                            <img src="assets/cert3.png" alt="Infosys Springboard JavaScript Course Completion Certificate" class="cert-img" loading="lazy">
+                            <span class="cert-category-badge">Web Dev</span>
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Inspect Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">JavaScript Completion</h3>
+                            <span class="cert-org"><i class="fa-solid fa-building-columns"></i> Infosys Springboard</span>
+                            <p class="cert-achievement">Successfully completed JavaScript Course</p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> November 2025</span>
+                                <button class="btn btn-card-git btn-view-cert" 
+                                    data-cert-src="assets/cert3.png" 
+                                    data-cert-title="JavaScript Course Completion Certificate"
+                                    data-cert-org="Infosys Springboard"
+                                    data-cert-date="November 2025"
+                                    data-cert-achievement="Successfully completed JavaScript Course">
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cert 4: C++ Bootcamp -->
+                    <article class="certificate-card" data-ccategory="programming">
+                        <div class="cert-image-box">
+                            <img src="assets/cert4.png" alt="LetsUpgrade C++ Bootcamp Certificate" class="cert-img" loading="lazy">
+                            <span class="cert-category-badge">Programming</span>
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Inspect Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">C++ Bootcamp Certificate</h3>
+                            <span class="cert-org"><i class="fa-solid fa-building-columns"></i> LetsUpgrade</span>
+                            <p class="cert-achievement">Successfully completed C++ Bootcamp</p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> November 2025</span>
+                                <button class="btn btn-card-git btn-view-cert" 
+                                    data-cert-src="assets/cert4.png" 
+                                    data-cert-title="C++ Bootcamp Certificate"
+                                    data-cert-org="LetsUpgrade"
+                                    data-cert-date="November 2025"
+                                    data-cert-achievement="Successfully completed C++ Bootcamp">
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- Cert 5: HTML & CSS Bootcamp -->
+                    <article class="certificate-card" data-ccategory="web-dev">
+                        <div class="cert-image-box">
+                            <img src="assets/cert5.png" alt="LetsUpgrade HTML & CSS Bootcamp Certificate" class="cert-img" loading="lazy">
+                            <span class="cert-category-badge">Web Dev</span>
+                            <div class="cert-zoom-overlay">
+                                <i class="fa-solid fa-magnifying-glass-plus"></i>
+                                <span>Inspect Certificate</span>
+                            </div>
+                        </div>
+                        <div class="cert-content">
+                            <h3 class="cert-title">HTML & CSS Bootcamp</h3>
+                            <span class="cert-org"><i class="fa-solid fa-building-columns"></i> LetsUpgrade</span>
+                            <p class="cert-achievement">Successfully completed HTML & CSS Bootcamp</p>
+                            <div class="cert-footer">
+                                <span class="cert-date"><i class="fa-regular fa-calendar-days"></i> November 2025</span>
+                                <button class="btn btn-card-git btn-view-cert" 
+                                    data-cert-src="assets/cert5.png" 
+                                    data-cert-title="HTML & CSS Bootcamp Certificate"
+                                    data-cert-org="LetsUpgrade"
+                                    data-cert-date="November 2025"
+                                    data-cert-achievement="Successfully completed HTML & CSS Bootcamp">
+                                    View Certificate
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="resume-section section-padding section-bg-alt">
+            <div class="container text-center reveal-on-scroll">
+                <div class="resume-wrapper">
+                    <div class="resume-icon-glowing"><i class="fa-regular fa-file-pdf"></i></div>
+                    <h2 class="resume-card-title">Curriculum Vitae</h2>
+                    <p class="resume-card-description">
+                        Interested in my academic background, technical projects, and full capabilities? Download my detailed resume. It includes my complete educational trajectory, developer statistics, and certification courses.
+                    </p>
+                    <div class="resume-action-box">
+                        <a href="assets/resume.pdf" download="Abhay_Shukla_Resume.pdf" class="btn btn-primary btn-resume" id="resume-download-link">
+                            <i class="fa-solid fa-file-arrow-down"></i> Download Resume
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-on-scroll">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <div class="title-underline"></div>
+                    <p class="section-subtitle">Have an internship offer, a project idea, or just want to say hi? Write to me!</p>
+                </div>
+                
+                <div class="contact-grid grid-2 reveal-on-scroll">
+                    <!-- Contact Information cards -->
+                    <div class="contact-info-panel">
+                        <h3 class="contact-panel-title">Contact Information</h3>
+                        <p class="contact-panel-desc">Feel free to reach out via these direct communication channels or connect with me on social platforms.</p>
+                        
+                        <div class="contact-cards-container">
+                            <!-- Email -->
+                            <a href="mailto:abhayshukla2404@gmail.com" class="contact-info-card">
+                                <div class="contact-card-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                                <div class="contact-card-text">
+                                    <span class="contact-card-label">Email Me</span>
+                                    <span class="contact-card-value">abhayshukla2404@gmail.com</span>
+                                </div>
+                                <div class="contact-card-arrow"><i class="fa-solid fa-angle-right"></i></div>
+                            </a>
+
+                            <!-- Phone -->
+                            <a href="tel:+919125220448" class="contact-info-card">
+                                <div class="contact-card-icon-box"><i class="fa-solid fa-phone"></i></div>
+                                <div class="contact-card-text">
+                                    <span class="contact-card-label">Call/WhatsApp</span>
+                                    <span class="contact-card-value">+91 9125220448</span>
+                                </div>
+                                <div class="contact-card-arrow"><i class="fa-solid fa-angle-right"></i></div>
+                            </a>
+
+                            <!-- Location -->
+                            <div class="contact-info-card no-hover">
+                                <div class="contact-card-icon-box"><i class="fa-solid fa-location-dot"></i></div>
+                                <div class="contact-card-text">
+                                    <span class="contact-card-label">My Location</span>
+                                    <span class="contact-card-value">Greater Noida, Uttar Pradesh, India</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact-social-channels">
+                            <span class="social-panel-label">Connect Socially:</span>
+                            <div class="social-group">
+                                <a href="https://github.com/abhayshukla2404-art" target="_blank" rel="noopener noreferrer" class="social-btn github-c" aria-label="GitHub Page"><i class="fa-brands fa-github"></i> GitHub</a>
+                                <a href="https://www.linkedin.com/in/abhay-shukla-19b61439b" target="_blank" rel="noopener noreferrer" class="social-btn linkedin-c" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i> LinkedIn</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form Card -->
+                    <div class="contact-form-panel">
+                        <h3 class="contact-panel-title">Send a Message</h3>
+                        
+                        <form id="contact-form" class="contact-form" novalidate>
+                            <!-- Input: Name -->
+                            <div class="form-group">
+                                <input type="text" id="form-name" class="form-input" required placeholder=" ">
+                                <label for="form-name" class="form-label">Full Name</label>
+                                <span class="error-msg" id="name-error">Please enter your full name.</span>
+                            </div>
+
+                            <!-- Input: Email -->
+                            <div class="form-group">
+                                <input type="email" id="form-email" class="form-input" required placeholder=" ">
+                                <label for="form-email" class="form-label">Email Address</label>
+                                <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                            </div>
+
+                            <!-- Input: Subject -->
+                            <div class="form-group">
+                                <input type="text" id="form-subject" class="form-input" required placeholder=" ">
+                                <label for="form-subject" class="form-label">Subject</label>
+                                <span class="error-msg" id="subject-error">Please provide a subject.</span>
+                            </div>
+
+                            <!-- Input: Message -->
+                            <div class="form-group">
+                                <textarea id="form-message" class="form-input text-area" required placeholder=" " rows="5"></textarea>
+                                <label for="form-message" class="form-label">Your Message</label>
+                                <span class="error-msg" id="message-error">Please enter your message details.</span>
+                            </div>
+
+                            <!-- Safety Anti-Spam Math Validation -->
+                            <div class="form-group-security">
+                                <label class="security-math-prompt">Anti-Spam Verification: <span id="math-num1">3</span> + <span id="math-num2">5</span> = </label>
+                                <input type="number" id="form-security" class="form-security-input" required placeholder="?">
+                                <span class="error-msg" id="security-error">Wrong answer. Please recalculate.</span>
+                            </div>
+
+                            <!-- Action Submit Button -->
+                            <button type="submit" id="form-submit-btn" class="btn btn-primary btn-submit">
+                                <span class="btn-text">Send Message <i class="fa-solid fa-paper-plane"></i></span>
+                                <span class="spinner-loader"></span>
+                            </button>
+                            
+                            <!-- Form Feedback Toast -->
+                            <div id="form-feedback" class="form-feedback-alert"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <a href="#home" class="footer-logo">Abhay<span>Shukla</span>.</a>
+                <p class="footer-slogan">Building software with precision, learning constantly, and engineering solutions for tomorrow.</p>
+            </div>
+            
+            <div class="footer-links">
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#resume">Resume</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-socials-group">
+                <h4 class="footer-heading">Follow Me</h4>
+                <div class="footer-social-icons">
+                    <a href="https://github.com/abhayshukla2404-art" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/abhay-shukla-19b61439b" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile"><i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="mailto:abhayshukla2404@gmail.com" aria-label="Email Me"><i class="fa-solid fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-copyright container text-center">
+            <p>&copy; 2026 Abhay Shukla. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scroll To Top Button -->
+    <button id="scroll-to-top" class="scroll-to-top-btn" aria-label="Scroll to top of the page" title="Scroll to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <!-- Certificate Lightbox Modal Overlay -->
+    <div id="certificate-modal" class="cert-modal" aria-hidden="true">
+        <div class="cert-modal-backdrop"></div>
+        <div class="cert-modal-container">
+            <button class="cert-modal-close" id="cert-modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+            <div class="cert-modal-body">
+                <div class="cert-modal-img-wrapper">
+                    <img src="" alt="Certificate Preview" id="cert-modal-img">
+                </div>
+                <div class="cert-modal-details">
+                    <span class="cert-modal-org" id="cert-modal-org"></span>
+                    <h3 class="cert-modal-title" id="cert-modal-title"></h3>
+                    <p class="cert-modal-achievement" id="cert-modal-achievement"></p>
+                    <span class="cert-modal-date" id="cert-modal-date"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Core Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
